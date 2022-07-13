@@ -1,47 +1,52 @@
+.Anch{
+    width: 100%;
+    border-radius: 3%;
+    border-left: 0ch;
+    border-right: 0ch;
+}
 .hoja{
-    background-color: rgba(31, 29, 29, 0);
+    background-color: white;
     position:absolute;
-    border-radius: 2%;
-    height: 80%;
-    width: 80%;
-    left: 10%;
+    height: 90%;
+    width: 90%;
+    left: 5%;
 }
 .hoja1{
     background-color: rgba(3, 1, 15, 0);
     position:absolute;
-    border-radius: 2%;
-    height: 80%;
-    width: 80%;
-    left: 10%;
+    border-radius: 3%;
+    height: 87%;
+    width: 90%;
+    left: 5%;
     box-shadow: 0 2px 5px 0;
     z-index: 1;
 }
 
 .hoja2{
     position:absolute;
-    border-radius: 2%;
-    height: 81%;
-    width: 78%;
-    left: 11%;
+    border-radius: 3%;
+    height: 88%;
+    width: 90%;
+    left: 5%;
     box-shadow: 0 2px 5px 0;
     z-index: 2;
 }
 
 .hoja3{
     position:absolute;
-    border-radius: 2%;
-    height: 82%;
-    width: 76%;
-    left: 12%;
+    border-radius: 3%;
+    height: 89%;
+    width: 90%;
+    left: 5%;
     box-shadow: 0 2px 5px 0;
     z-index: 3;
 }
 .hoja4{
     position:absolute;
-    border-radius: 2%;
-    height: 83%;
-    width: 74%;
-    left: 13%;
+    border-radius: 3%;
+    height: 90%;
+    width: 90%;
+    left: 5%;
     box-shadow: 0 2px 5px 0;
     z-index: 3;
 }
