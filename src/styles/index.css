@@ -1,15 +1,16 @@
-.Anch{
-    width: 100%;
-    border-radius: 3%;
-    border-left: 0ch;
-    border-right: 0ch;
+h1{
+    color:rgba(185, 181, 181, 0.5)
 }
+input{
+    border-color: rgba(218, 207, 207, 0.5);
+}
+
 .hoja{
     background-color: white;
     position:absolute;
     height: 90%;
     width: 90%;
-    left: 5%;
+    left: 5%
 }
 .hoja1{
     background-color: rgba(3, 1, 15, 0);
@@ -18,8 +19,7 @@
     height: 87%;
     width: 90%;
     left: 5%;
-    box-shadow: 0 2px 5px 0;
-    z-index: 1;
+    box-shadow: 0 2px 5px 0
 }
 
 .hoja2{
@@ -28,8 +28,7 @@
     height: 88%;
     width: 90%;
     left: 5%;
-    box-shadow: 0 2px 5px 0;
-    z-index: 2;
+    box-shadow: 0 2px 5px 0
 }
 
 .hoja3{
@@ -38,8 +37,7 @@
     height: 89%;
     width: 90%;
     left: 5%;
-    box-shadow: 0 2px 5px 0;
-    z-index: 3;
+    box-shadow: 0 2px 5px 0
 }
 .hoja4{
     position:absolute;
@@ -47,6 +45,5 @@
     height: 90%;
     width: 90%;
     left: 5%;
-    box-shadow: 0 2px 5px 0;
-    z-index: 3;
+    box-shadow: 0 2px 5px 0
 }

@@ -1,36 +1,32 @@
-import React from "react";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import React, { useState } from "react";
 
 //create your first component
 const Home = () => {
+  const [list, setList] = useState([]);
+  const [input, setInput] = useState("");
+
+  const addTodo = (todo) => {
+    const newTodo = {
+      id: Math.random(),
+      todo: todo,
+    };
+
+    setList([...list, newTodo]);
+
+    setInput("");
+  };
+
+  const deleteTodo = () => {
+    setList([]);
+  };
+
   return (
-    <div className="text-center mt-5">
+    <div className="text-center mt-3">
       <div className="container text-center p-1 m-1 hoja">
-        <div className="input-group w-75">
-          <input
-            type="text"
-            className="form-control"
-            placeholder="Recipient"
-			readonly
-          />
-          <div className="input-group-append">
-            <button
-              className="btn btn-secondary"
-              type="button"
-              id="button-addon2"
-            >
-              Button
-            </button>
-          </div>
-        </div>
+        <h1>Todo</h1>
+        <input placeholder="Prueba"/>
         <ul className="list-group">
-          <li className="list-group-item Anch">An item</li>
-          <li className="list-group-item Anch">A second item</li>
-          <li className="list-group-item Anch">A third item</li>
-          <li className="list-group-item Anch">A fourth item</li>
-          <li className="list-group-item Anch">And a fifth one</li>
+          {list}
         </ul>
       </div>
       <div className="hoja1"></div>
