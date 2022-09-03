@@ -43,7 +43,7 @@ const TodoList = () => {
 
 	return (
 		<div className="diary">
-			<h1 className="title-list">TO DO</h1>
+			<h1 className="title-list">TO-DO</h1>
 			<input
 				className="New-Task"
 				type="text"
@@ -59,9 +59,6 @@ const TodoList = () => {
 					Task={Task}
 					Duplicated={Duplicated}
 				/>
-				{/* {tasks.map((it, i) => {
-					return <Item task={it} key={i} />;
-				})} */}
 				<Footer tasks={tasks} />
 			</ul>
 		</div>
