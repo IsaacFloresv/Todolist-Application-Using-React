@@ -4,7 +4,7 @@ import TodoList from "./TodoList.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="container-fluid mt-1">
+		<div className="container-fluid">
 			<TodoList />
 		</div>
 	);
