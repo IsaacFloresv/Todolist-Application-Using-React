@@ -5,7 +5,7 @@ const Tasks = ({ tasks, taskDuplicate, Duplicated, removeTask }) => {
 	return tasks.map(task => {
 		if (taskDuplicate && Duplicated.toLowerCase() === task.toLowerCase()) {
 			return (
-				<li key={Duplicated} className={"task alert"}>
+				<li key={Duplicated} className={"task alert mt-1"}>
 					{task}
 					<span
 						className="trash"
