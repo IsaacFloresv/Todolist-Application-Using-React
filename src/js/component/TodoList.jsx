@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Tasks from "./Tasks.jsx";
-import Item from "./Item.jsx";
 import Footer from "./footer.jsx";
 
 const TodoList = () => {
